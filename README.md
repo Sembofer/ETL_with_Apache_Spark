@@ -17,7 +17,7 @@ If you can't execute the config.sh run these steps
 `alter role postgres with password 'mysecretpassword';`
 
 ## The file jar
-Make sure you have the next connector, postgresql-42.1.4.jar,in the established route.
+Make sure you have the next connector, lib/postgresql-42.1.4.jar,in the established route.
 If everything is ok, just run
 `spark-submit --driver-class-path /usr/lib/postgresql-42.1.4.jar etl.py`
 
