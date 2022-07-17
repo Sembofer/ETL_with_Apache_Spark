@@ -127,12 +127,3 @@ write_df_to_table(DataFrameWriter(adj_close_diff_than_close), "adjusted_close_co
 print("DB Write complete")
 
 print("Complete")
-
-
-#print("\n",df2)
-#print("\n",type(df2))
-#print("\n",dir(df2))
-
-
-# sudo docker run --name mypostgres -p 5432:5432 POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -d postgres
-

@@ -1,0 +1,1 @@
+alter role postgres with password 'mysecretpassword';
